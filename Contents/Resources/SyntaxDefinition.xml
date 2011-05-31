@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<syntax>
+    <head>
+        <name>Haxe</name> <!-- The definitions title -->
+        <charsintokens><![CDATA[_0987654321abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ@]]></charsintokens> <!-- Valid Characters for Variables -->
+        <!-- <charsdelimitingtokens></charsdelimitingtokens> -->
+    </head>
+    <states>
+
+		<default id="Base" color="#000" background-color="#fff" font-weight="normal" font-style="normal">
+
+			<keywords id="Keywords" color="#6C0540" useforautocomplete="yes">
+				<string>break</string>
+				<string>callback</string>
+				<string>case</string>
+				<string>cast</string>
+				<string>catch</string>
+				<string>class</string>
+				<string>continue</string>
+				<string>default</string>
+				<string>do</string>
+				<string>dynamic</string>
+				<string>else</string>
+				<string>enum</string>
+				<string>extends</string>
+				<string>extern</string>
+				<string>false</string>
+				<string>for</string>
+				<string>function</string>
+				<string>here</string>
+				<string>if</string>
+				<string>implements</string>
+				<string>import</string>
+				<string>in</string>
+				<string>inline</string>
+				<string>interface</string>
+				<string>never</string>
+				<string>new</string>
+				<string>null</string>
+				<string>override</string>
+				<string>package</string>
+				<string>private</string>
+				<string>public</string>
+				<string>return</string>
+				<string>static</string>
+				<string>super</string>
+				<string>switch</string>
+				<string>this</string>
+				<string>throw</string>
+				<string>trace</string>
+				<string>true</string>
+				<string>try</string>
+				<string>typedef</string>
+				<string>untyped</string>
+				<string>using</string>
+				<string>var</string>
+				<string>while</string>
+			</keywords>
+
+			<keywords id="Base Classes" color="#400080" useforautocomplete="yes">
+				<string>Array</string>
+				<string>ArrayAccess</string>
+				<string>Bool</string>
+				<string>Class</string>
+				<string>Date</string>
+				<string>DateTools</string>
+				<string>Dynamic</string>
+				<string>EReg</string>
+				<string>Enum</string>
+				<string>Float</string>
+				<string>Hash</string>
+				<string>Int</string>
+				<string>IntHash</string>
+				<string>IntIter</string>
+				<string>Iterable</string>
+				<string>Iterator</string>
+				<string>List</string>
+				<string>Math</string>
+				<string>Null</string>
+				<string>Reflect</string>
+				<string>Std</string>
+				<string>String</string>
+				<string>StringBuf</string>
+				<string>StringTools</string>
+				<string>Type</string>
+				<string>UInt</string>
+				<string>Unknown</string>
+				<string>ValueType</string>
+				<string>Void</string>
+				<string>Xml</string>
+				<string>XmlType</string>
+				<regex>(&lt;[a-zA-Z]+&gt;)</regex>
+			</keywords>
+			
+			<keywords id="Functions" color="#6619BC" useforautocomplete="yes">
+			</keywords>
+
+			<keywords id="Classes" color="#CC4C00" useforautocomplete="yes">
+				<string>Bitmap</string>
+				<string>BitmapData</string>
+				<string>ByteArray</string>
+				<string>Lib</string>
+				<string>Vector</string>
+				<string>Dictionary</string>
+				<string>Timer</string>
+				<string>Mouse</string>
+				<string>Keyboard</string>
+				<string>TextField</string>
+				<string>Font</string>
+				<string>Graphics</string>
+				<string>MovieClip</string>
+				<string>Loader</string>
+				<string>Scene</string>
+				<string>Shader</string>
+				<string>Sprite</string>
+				<string>Sound</string>
+				<string>Video</string>
+	    	</keywords>
+	
+			<keywords id="HaxePunk" color="#CC4C00" useforautocomplete="yes">
+				<string>Alarm</string>
+				<string>AngleTween</string>
+				<string>Anim</string>
+				<string>Backdrop</string>
+				<string>Canvas</string>
+				<string>CircularMotion</string>
+				<string>ColorTween</string>
+				<string>Console</string>
+				<string>CubicMotion</string>
+				<string>Data</string>
+				<string>Draw</string>
+				<string>Ease</string>
+				<string>Emitter</string>
+				<string>Engine</string>
+				<string>Entity</string>
+				<string>Fader</string>
+				<string>Graphic</string>
+				<string>Graphiclist</string>
+				<string>Hitbox</string>
+				<string>HXP</string>
+				<string>Image</string>
+				<string>Input</string>
+				<string>Key</string>
+				<string>LinearMotion</string>
+				<string>Mask</string>
+				<string>Masklist</string>
+				<string>Motion</string>
+				<string>MultiVarTween</string>
+				<string>NumTween</string>
+				<string>Particle</string>
+				<string>ParticleType</string>
+				<string>Pixelmask</string>
+				<string>PreRotation</string>
+				<string>QuadMotion</string>
+				<string>QuadPath</string>
+				<string>Screen</string>
+				<string>Sfx</string>
+				<string>SfxFader</string>
+				<string>Spritemap</string>
+				<string>Stamp</string>
+				<string>Text</string>
+				<string>TiledImage</string>
+				<string>TiledSpritemap</string>
+				<string>Tilemap</string>
+				<string>TmxEntity</string>
+				<string>TmxLayer</string>
+				<string>TmxMap</string>
+				<string>TmxObject</string>
+				<string>TmxObjectGroup</string>
+				<string>TmxPropertySet</string>
+				<string>TmxTileSet</string>
+				<string>Tween</string>
+				<string>Tweener</string>
+				<string>VarTween</string>
+				<string>World</string>
+			</keywords>
+
+			<keywords id="Numbers" color="#009919" useforautocomplete="no">
+				<regex>(?&lt;=[^[A-Za-z0-9]]|^)((([0-9]+\.[0-9]*)|(\.[0-9]+)([eE][+\-]?[0-9]+)?[fFlL]?)|((([1-9][0-9]*)|0[0-7]*|(0[xX][0-9a-fA-F]))(([uU][lL]?)|([lL][uU]?))?))(?=[^[A-Za-z0-9]]|$)</regex>
+			</keywords>
+			<keywords id="Operators" color="#f00" useforautocomplete="no">
+				<regex>([\(\)\+\-\*\\\=\{\}\[\]\|\!\:\&lt;\&gt;])</regex>
+            </keywords>
+			<keywords id="Preprocessor" color="#FF6500" useforautocomplete="no">
+				<regex>(^[	]*#([^\n\r])*)</regex>
+			</keywords>
+
+			<state id="JavadocComment" type="comment" color="#236E25" font-weight="normal" font-style="italic">
+				<begin><regex>/\*\*(?=[\n\r])</regex></begin>
+				<end><regex>\*/</regex></end>
+			</state>
+			<state id="Comment" color="#236E25" font-style="italic">
+				<begin><regex>/\*</regex></begin>
+				<end><regex>\*/</regex></end>
+			</state>
+			<state id="SingleComment" color="#236E25" font-style="italic">
+				<begin><regex>//</regex></begin>
+				<end><regex>[\n\r]</regex></end>
+			</state>
+
+			<state id="Double Quoted String" type="string" color="#727272" font-weight="normal" font-style="normal" usespellchecking="yes">
+				<begin><regex>"</regex></begin>
+				<end><regex>(((?&lt;!\\)(\\\\)*)|^)"</regex></end>
+			</state>
+			<state id="Single Quoted String" type="string" color="#727272" font-weight="normal" font-style="normal" usespellchecking="yes">
+				<begin><regex>'</regex></begin>
+				<end><regex>(((?&lt;!\\)(\\\\)*)|^)'</regex></end>
+			</state>
+		</default>
+    </states>
+</syntax>
