@@ -9,6 +9,247 @@
 		<key>StartTag</key>
 		<string>/*</string>
 	</dict>
+	<key>Completions</key>
+	<array>
+		<dict>
+			<key>Hint</key>
+			<string>x : Float</string>
+			<key>ID</key>
+			<string>Std.int</string>
+			<key>MoveCursor</key>
+			<string>1</string>
+			<key>PostString</key>
+			<string>()</string>
+			<key>String</key>
+			<string>Std.int</string>
+		</dict>
+		<dict>
+			<key>Hint</key>
+			<string>v : Dynamic, t : Dynamic</string>
+			<key>ID</key>
+			<string>Std.is</string>
+			<key>MoveCursor</key>
+			<string>1</string>
+			<key>PostString</key>
+			<string>()</string>
+			<key>String</key>
+			<string>Std.is</string>
+		</dict>
+		<dict>
+			<key>Hint</key>
+			<string>x : String</string>
+			<key>ID</key>
+			<string>Std.parseFloat</string>
+			<key>MoveCursor</key>
+			<string>1</string>
+			<key>PostString</key>
+			<string>()</string>
+			<key>String</key>
+			<string>Std.parseFloat</string>
+		</dict>
+		<dict>
+			<key>Hint</key>
+			<string>x : String</string>
+			<key>ID</key>
+			<string>Std.parseInt</string>
+			<key>MoveCursor</key>
+			<string>1</string>
+			<key>PostString</key>
+			<string>()</string>
+			<key>String</key>
+			<string>Std.parseInt</string>
+		</dict>
+		<dict>
+			<key>Hint</key>
+			<string>x : Int</string>
+			<key>ID</key>
+			<string>Std.random</string>
+			<key>MoveCursor</key>
+			<string>1</string>
+			<key>PostString</key>
+			<string>()</string>
+			<key>String</key>
+			<string>Std.random</string>
+		</dict>
+		<dict>
+			<key>Hint</key>
+			<string>s : Dynamic</string>
+			<key>ID</key>
+			<string>Std.string</string>
+			<key>MoveCursor</key>
+			<string>1</string>
+			<key>PostString</key>
+			<string>()</string>
+			<key>String</key>
+			<string>Std.string</string>
+		</dict>
+		<dict>
+			<key>Hint</key>
+			<string>s : String</string>
+			<key>ID</key>
+			<string>Date.fromString</string>
+			<key>MoveCursor</key>
+			<string>1</string>
+			<key>PostString</key>
+			<string>()</string>
+			<key>String</key>
+			<string>Date.fromString</string>
+		</dict>
+		<dict>
+			<key>Hint</key>
+			<string>t : Float</string>
+			<key>ID</key>
+			<string>Date.fromTime</string>
+			<key>MoveCursor</key>
+			<string>1</string>
+			<key>PostString</key>
+			<string>()</string>
+			<key>String</key>
+			<string>Date.fromTime</string>
+		</dict>
+		<dict>
+			<key>ID</key>
+			<string>Date.now</string>
+			<key>MoveCursor</key>
+			<string>1</string>
+			<key>PostString</key>
+			<string>()</string>
+			<key>String</key>
+			<string>Date.now</string>
+		</dict>
+		<dict>
+			<key>Hint</key>
+			<string>n : Float</string>
+			<key>ID</key>
+			<string>DateTools.days</string>
+			<key>MoveCursor</key>
+			<string>1</string>
+			<key>PostString</key>
+			<string>()</string>
+			<key>String</key>
+			<string>DateTools.days</string>
+		</dict>
+		<dict>
+			<key>Hint</key>
+			<string>d : Date, t : Float</string>
+			<key>ID</key>
+			<string>DateTools.delta</string>
+			<key>MoveCursor</key>
+			<string>1</string>
+			<key>PostString</key>
+			<string>()</string>
+			<key>String</key>
+			<string>DateTools.delta</string>
+		</dict>
+		<dict>
+			<key>Hint</key>
+			<string>d : Date, f : String</string>
+			<key>ID</key>
+			<string>DateTools.format</string>
+			<key>MoveCursor</key>
+			<string>1</string>
+			<key>PostString</key>
+			<string>()</string>
+			<key>String</key>
+			<string>DateTools.format</string>
+		</dict>
+		<dict>
+			<key>Hint</key>
+			<string>d : Date</string>
+			<key>ID</key>
+			<string>DateTools.getMonthDays</string>
+			<key>MoveCursor</key>
+			<string>1</string>
+			<key>PostString</key>
+			<string>()</string>
+			<key>String</key>
+			<string>DateTools.getMonthDays</string>
+		</dict>
+		<dict>
+			<key>Hint</key>
+			<string>n : Float</string>
+			<key>ID</key>
+			<string>DateTools.hours</string>
+			<key>MoveCursor</key>
+			<string>1</string>
+			<key>PostString</key>
+			<string>()</string>
+			<key>String</key>
+			<string>DateTools.hours</string>
+		</dict>
+		<dict>
+			<key>Hint</key>
+			<string>o : { seconds : Int, ms : Float, minutes : Int, hours : Int, days : Int }</string>
+			<key>ID</key>
+			<string>DateTools.make</string>
+			<key>MoveCursor</key>
+			<string>1</string>
+			<key>PostString</key>
+			<string>()</string>
+			<key>String</key>
+			<string>DateTools.make</string>
+		</dict>
+		<dict>
+			<key>Hint</key>
+			<string>n : Float</string>
+			<key>ID</key>
+			<string>DateTools.minutes</string>
+			<key>MoveCursor</key>
+			<string>1</string>
+			<key>PostString</key>
+			<string>()</string>
+			<key>String</key>
+			<string>DateTools.minutes</string>
+		</dict>
+		<dict>
+			<key>Hint</key>
+			<string>t : Float</string>
+			<key>ID</key>
+			<string>DateTools.parse</string>
+			<key>MoveCursor</key>
+			<string>1</string>
+			<key>PostString</key>
+			<string>()</string>
+			<key>String</key>
+			<string>DateTools.parse</string>
+		</dict>
+		<dict>
+			<key>Hint</key>
+			<string>n : Float</string>
+			<key>ID</key>
+			<string>DateTools.seconds</string>
+			<key>MoveCursor</key>
+			<string>1</string>
+			<key>PostString</key>
+			<string>()</string>
+			<key>String</key>
+			<string>DateTools.seconds</string>
+		</dict>
+		<dict>
+			<key>Hint</key>
+			<string>it : Iterable&lt;A&gt;</string>
+			<key>ID</key>
+			<string>Lambda.array</string>
+			<key>MoveCursor</key>
+			<string>1</string>
+			<key>PostString</key>
+			<string>&lt;&gt;()</string>
+			<key>String</key>
+			<string>Lambda.array</string>
+		</dict>
+		<dict>
+			<key>Hint</key>
+			<string>a : Iterable&lt;T&gt;, b : Iterable&lt;T&gt;</string>
+			<key>ID</key>
+			<string>Lambda.concat<T>(a:Iterable<T>, b:Iterable<T>)</string>
+			<key>MoveCursor</key>
+			<string>1</string>
+			<key>PostString</key>
+			<string>&lt;&gt;()</string>
+			<key>String</key>
+			<string>Lambda.concat</string>
+		</dict>
+	</array>
 	<key>LineCompletion</key>
 	<string>;</string>
 	<key>Name</key>
